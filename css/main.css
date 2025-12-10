@@ -69,7 +69,7 @@ body {
     margin-top: -30px;
     font-size: 20px;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .special-heading {
         font-size: 80px;
     }
@@ -81,6 +81,8 @@ body {
 /* Header */
 .header{
     padding: 20px;
+    justify-content: center;
+    display: flex;
 }
 
 
@@ -225,6 +227,8 @@ font-size: 50px;
 .features{
     padding: 60px;
     background-color: var(--bck-color);
+    justify-content: center;
+    display: flex;
 }
 
 .features .container{
@@ -269,7 +273,7 @@ font-size: 50px;
     margin-bottom: 20px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 
     .services .container-content .srv {
         flex-direction: column;
@@ -349,7 +353,7 @@ font-size: 50px;
 
 }
 
- @media (max-width: 676px) {
+ @media (max-width: 767px) {
     .portfolio .portfolio-content {
         align-items: center;
         justify-content: center;
@@ -452,7 +456,7 @@ font-size: 50px;
     z-index: -1;
 }
 
-@media (max-width: 676px) {
+@media (max-width: 767px) {
 
     .about-content .image::before,
     .about-content .image::after {
