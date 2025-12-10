@@ -34,19 +34,19 @@ body {
 /* Small */
 @media (min-width: 768px) {
     .container {
-        width: 720px;
+        width: 750px;
     }
 }
 
 /* Medium */
 @media (min-width: 992px) {
     .container {
-        width: 910px;
+        width: 970px;
     }
 }
 
 /* Large */
-@media (min-width: 1250px) {
+@media (min-width: 1200px) {
     .container {
         width: 1170px;
     }
