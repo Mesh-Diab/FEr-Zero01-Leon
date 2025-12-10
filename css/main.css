@@ -155,7 +155,7 @@ body {
     right: 0;
     min-width: 200px;
     top: calc(100% + 15px);
-    background-color: transparent;
+    background-color: white;
     display: none;
     z-index: 1;
 }
@@ -182,15 +182,15 @@ body {
     transition: .3s;
 }
 .header .links ul li:first-child{
-    margin-top: 15px;
+    margin-top: 7px;
 }
 
 .header .links ul li a:hover{
     padding-left: 25px;
 }
 
-.header .links ul li:not(:last-child) a{
-    border-bottom: solid 1px #333;
+.header .links ul li a{
+    border-top: solid 1px #333;
 }
 
 /* Landing */
