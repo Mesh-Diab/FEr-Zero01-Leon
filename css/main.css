@@ -90,6 +90,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex: 1;
 }
 
 .header .logo{
@@ -516,6 +517,12 @@ hr {
     color: var(--main-color);
     text-decoration: none;
     letter-spacing: 0;
+}
+
+@media (max-width: 767px) {
+    .contact .info a {
+        font-size: 20px;
+    }
 }
 
 .contact .info .social {
