@@ -71,11 +71,12 @@ body {
 }
 @media (max-width: 767px) {
     .special-heading {
-        font-size: 80px;
+        font-size: 70px;
     }
 
     .special-heading+p {
         margin-top: -25px;
+        font-size: 15px;
     }
 }
 /* Header */
